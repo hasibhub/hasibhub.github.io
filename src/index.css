@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-light: #fffaf2;
+  --color-dark: #1c1917;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "Tajawal",
+    "Inter Variable",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+  color: var(--color-dark);
+  background: var(--color-light);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.accent-text {
+  @apply text-stone-600;
+}
+
+.auth-input-field {
+  @apply w-full rounded-2xl border border-stone-200 bg-white px-4 py-3 text-stone-900 shadow-sm outline-none transition focus:border-orange-400 focus:ring-4 focus:ring-orange-100;
+}
+
+.auth-button {
+  @apply w-full rounded-2xl bg-stone-950 px-4 py-3 font-black text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-orange-900 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.field {
+  @apply w-full rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3 text-stone-900 outline-none transition placeholder:text-stone-400 focus:border-orange-400 focus:bg-white focus:ring-4 focus:ring-orange-100;
+}
+
+::selection {
+  background: #fed7aa;
+  color: #1c1917;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5efe5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6a66e;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b7791f;
+}
+
+[dir="rtl"] {
+  text-align: right;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.45s ease-out;
+}
