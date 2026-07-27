@@ -76,8 +76,8 @@ function Content() {
 
             <div className="grid gap-3 text-sm font-semibold text-stone-700 sm:grid-cols-3">
               <div className="rounded-2xl bg-stone-50 p-4" >نصائح 💡 </div>
-              <div className="rounded-2xl bg-stone-50 p-4">  👨🏻‍💻👩🏻‍💻 تجارب طلاب وطالبات  </div>
-              <div className="rounded-2xl bg-stone-50 p-4"> ❤️إعجاب بالتعليق</div>
+              <div className="rounded-2xl bg-stone-50 p-4">   تجارب طلاب وطالبات 👨🏻‍💻👩🏻‍💻 </div>
+              <div className="rounded-2xl bg-stone-50 p-4"> إعجاب بالتعليق❤️</div>
             </div>
           </div>
 
