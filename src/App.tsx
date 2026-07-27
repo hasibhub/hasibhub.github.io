@@ -24,7 +24,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-xl font-black tracking-tight text-stone-950 md:text-2xl">
-              تجارب طلاب الكليه الحاسبات
+              تجارب طلاب كلية الحاسبات
               </h1>
               <p className="text-xs font-medium text-stone-500 md:text-sm">
                 مساحة لطيفة لنصائح السنة الأولى
@@ -63,22 +63,21 @@ function Content() {
           <div className="rounded-[2rem] border border-white/70 bg-white/75 p-7 shadow-2xl shadow-orange-100/70 backdrop-blur md:p-10">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-semibold text-amber-700">
               <span className="text-xl">👩🏻‍💻👨🏻‍💻</span>
-              <span>منصة تجارب جامعية</span>
+              <span>رحله تجارب ونصائح </span>
             </div>
 
             <h2 className="mb-5 text-4xl font-black leading-tight text-stone-950 md:text-6xl">
-              اقرا وتعلم من تجارب غيرك ونصائحهم، وابرز تجربتك بثقة ✨
+             وصلت وجهتك يا مستجد ✨
             </h2>
 
             <p className="mb-8 max-w-2xl text-lg leading-9 text-stone-600">
-              مكان بسيط ومرتب لطلاب وطالبات الحاسب: نصائح، مواقف، أخطاء،
-              وحلول تساعد المستجدين 
+            تجارب ونصائح من طلاب وطالبات كلية الحاسبات بمختلف التخصصات والفروع
             </p>
 
             <div className="grid gap-3 text-sm font-semibold text-stone-700 sm:grid-cols-3">
-              <div className="rounded-2xl bg-stone-50 p-4">نصائح 💡 </div>
-              <div className="rounded-2xl bg-stone-50 p-4">  👨🏻‍💻 تجارب طلاب وطالبات 👩🏻‍💻 </div>
-              <div className="rounded-2xl bg-stone-50 p-4">❤️ تفاعل وإعجاب</div>
+              <div className="rounded-2xl bg-stone-50 p-4" >نصائح 💡 </div>
+              <div className="rounded-2xl bg-stone-50 p-4">  👨🏻‍💻👩🏻‍💻 تجارب طلاب وطالبات  </div>
+              <div className="rounded-2xl bg-stone-50 p-4"> ❤️إعجاب بالتعليق</div>
             </div>
           </div>
 
@@ -124,12 +123,15 @@ function Content() {
         <ExperiencesList />
       </Authenticated>
 
-      <footer className="mt-12 border-t pt-6 text-center text-sm text-gray-500">
-        <p>
-          تم تطوير هذا الموقع بواسطة <strong>Ray</strong>
-        </p>
-        <p>جميع الحقوق محفوظة © 2026</p>
-      </footer>
-    </div>
-  );
+    <footer className="mt-12 border-t pt-6 text-center text-sm text-gray-500">
+  <p className="font-medium">
+    صُنع هذا الموقع ليكون دليلك لبداية جامعية مليئة بالنصائح والتجارب.
+  </p>
+
+  <p className="mt-4 text-xs text-gray-400">
+    © 2026 HasibHub
+  </p>
+</footer>
+</div>
+);
 }
