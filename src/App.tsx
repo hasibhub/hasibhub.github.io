@@ -123,13 +123,26 @@ function Content() {
         <ExperiencesList />
       </Authenticated>
 
-    <footer className="mt-12 border-t pt-6 text-center text-sm text-gray-500">
+   <footer className="mt-12 border-t pt-6 text-center text-sm text-gray-500">
   <p className="font-medium">
     صُنع هذا الموقع ليكون دليلك لبداية جامعية مليئة بالنصائح والتجارب.
   </p>
 
+  <p className="mt-4">
+  مطور الموقع 👩🏻‍💻
+    <br />
+    <a
+      href="https://t.me/ltivxx"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:text-blue-600 hover:underline font-medium"
+    >
+      @ltivxx
+    </a>
+  </p>
+
   <p className="mt-4 text-xs text-gray-400">
-    © 2026 HasibHub
+    جميع الحقوق محفوظة © 2026 HasibHub
   </p>
 </footer>
 </div>
