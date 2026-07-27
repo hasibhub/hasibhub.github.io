@@ -24,7 +24,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-xl font-black tracking-tight text-stone-950 md:text-2xl">
-                تجارب الطلاب والطالبات الحاسب
+              تجارب طلاب الكليه الحاسبات
               </h1>
               <p className="text-xs font-medium text-stone-500 md:text-sm">
                 مساحة لطيفة لنصائح السنة الأولى
